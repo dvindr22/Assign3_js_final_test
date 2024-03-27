@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3:Pizza maker</title>
+    <!-- linking the stylesheet -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    
+</head>
+<body>
+    <!-- creating a div for housing all the form elements -->
+    <div class="container">
+        <h1>Pixxa Pizza</h1>
+        <!-- adding an empty para to add my student credentials dynamically -->
+        <p id="myCredentials"></p>
+
+        <!-- adding a form to take input arguments from the user -->
+        <form id="orderForm">
+            <!-- size selection -->
+            <label for="size">Size:</label>
+            <select name="size" id="size">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+                <option value="large">Party-size</option>
+                
+            </select>
+
+            <!-- toppings selection -->
+            <label for="toppings">Toppings:</label>
+            <input type="checkbox" name="topping" value="Jalapeno" class="toppings"> Jalapeno
+            <input type="checkbox" name="topping" value="Mushrooms" class="toppings"> Mushrooms
+            <input type="checkbox" name="topping" value="Red-Onions" class="toppings"> Red-Onions
+            <input type="checkbox" name="topping" value="Paneer" class="toppings"> Paneer
+
+            <!-- selection for bake: well-done or not -->
+            <label for="bake">Bake:</label>
+            <input type="radio" name="bake" value="Well-done" class="bake"> Well-done
+            <input type="radio" name="bake" value="Regular" class="bake"> Regular
+            
+            <!-- selection for crust -->
+            <label for="crust">Crust:</label>
+            <input type="radio" name="crust" value="thin" class="crust"> Thin
+            <input type="radio" name="crust" value="thick" class="crust"> Thick
+            
+            <!-- submit button -->
+            <button type="submit">Order</button>
+        </form>
+        <div id="description"></div>
+    </div>
+    <!-- linking the external javascript file -->
+    <script src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 600px;
+    margin: 14% auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    margin-left: 30%;
+    background-color: rgb(247, 161, 0);
+    color: white;
+    font: bolder;
+    padding: 4%;
+    margin-right: 30%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 9%;
+}
+
+#size{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
+}
+
+label[for='toppings']{
+    display: block;
+    margin-top: 4%;
+}
+label[for="bake"]{
+    display: block;
+    margin-top: 4%;
+}
+label[for="crust"]{
+    display: block;
+    margin-top: 4%;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ffc400;
+    color: white;
+    font-weight: 700;
+    font: bolder;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin-top: 4%;
+}
+
+button:hover {
+    background-color: #f84288;
+    font: bolder;
+}
